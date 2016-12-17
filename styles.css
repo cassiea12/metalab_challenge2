@@ -1,0 +1,174 @@
+body {
+	background-color: #b9b9b9;
+	color: #55565A;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.wrapper {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	width: 1440px;
+}
+.fontLight {
+	font-weight: 300;
+}
+.fontBold {
+	font-weight: 700;
+	font-size: 18px;
+}
+p {
+	font-size: 14px;
+}
+h2 {
+	font-size: 22px;
+}
+.floatLeft {
+	float: left;
+}
+/*TOP NAV*/
+.navbar {
+	height: 100px;
+	padding: 30px 0 0 159px;
+}
+.navbar p{
+	color: #CCCCCC;
+	margin: 0;
+}
+nav ul {
+	display: inline;
+	margin: 0 0 0 466px;
+	padding: 0;
+}
+nav li {
+	display: inline;
+	margin-right: 19px;
+}
+nav li a:link {
+	color: #CCCCCC;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+nav li a:visited {
+	color: #CCCCCC;	
+}
+nav li a:hover {
+	border-top:1px solid #CE1126;
+	color: #CE1126;	
+	padding-top: 33px;
+}
+/*INFO SECTION*/
+.info {
+	height: 345px;
+	padding-left: 159px;
+}
+.info h1 span {
+	font-size: 44px;
+}
+.info div {
+	margin-left: 265px;
+	padding-top: 35px;
+	width: 480px;
+}
+.info p {
+	line-height: 24px;
+	margin-bottom: 0;
+}
+.info h2 {
+	margin-top: 0;
+}
+ /*BOSS SECTION*/
+.boss {
+	height: 605px;
+}
+.boss p {
+	line-height: 26px;
+	margin: 0;
+	padding-left: 47px;
+}
+.boss p .fontBold {
+	font-size: 18px;
+}
+.boss p span {
+	margin-top: 10px;
+}
+hr {
+	background-color: #CE1126;
+	border: none;
+	height: 1px;
+	margin-right: 406px;
+	width: 20px;
+}
+.boss div {
+	padding-bottom: 20px;
+	position:relative;
+	width: 480px;
+}
+.boss a:link{
+	color: #55565A;
+	text-decoration: none;
+}
+.boss a:visited {
+	color: #55565A;	
+}
+.boss a:hover{
+	color: #CE1126;
+}
+.boss a div:hover:after {
+	background:rgba(206,17,38,0.7);
+    content:"";
+    height:95.2%;
+    position:absolute;
+	top:0;
+	left:0;
+    width:100%;
+} 
+/*QUOTE SECTION*/
+.quote {
+	border-style: solid;
+	border-color: #EFEFEF;
+	border-width: 1px;
+	height: 300px;
+	padding: 145px 320px 20px 320px;
+}
+blockquote {
+/*	font-weight: 300px;*/
+	font-style: italic;
+	font-size: 44px;
+	margin: 0;
+}
+.quote hr {
+	margin-right: 805px;
+}
+/*STAFF SECTION*/
+.staff {
+	height: 719px;
+}
+/*FOOTER*/
+footer {
+	background-color: #212020;
+	color: #ffffff;
+	height: 187px;
+	padding: 89px 0 0 119px;
+}
+footer h2 {
+	font-weight: 400;
+	font-size: 22px;
+	padding-left: 40px;
+}
+.liGroup {
+	margin-left: 53px;
+}
+footer li{
+	font-size: 14px;
+	line-height: 24px;
+	list-style-type: none;
+}
+footer ul {
+	margin-top: 0;
+	padding-left: 214px;
+}
+
+
+
+
